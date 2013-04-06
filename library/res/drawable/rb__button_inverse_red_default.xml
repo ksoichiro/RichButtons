@@ -20,14 +20,31 @@
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
   THE SOFTWARE.
 -->
-<resources>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <color name="rb__button_shadow_color">#CC999999</color>
-    <color name="rb__button_inverse">#FF333333</color>
-    <color name="rb__button_inverse_red">#FFFFFFFF</color>
-    <color name="rb__button_recessed">#FF333333</color>
-    <color name="rb__button_plastic">#FFFFFFFF</color>
-    <color name="rb__button_ics_light">#FF333333</color>
-    <color name="rb__button_ics_black">#FFCCCCCC</color>
+    <item>
+        <shape android:shape="rectangle" >
+            <corners android:radius="@dimen/rb__radius_button" />
 
-</resources>
+            <gradient
+                android:angle="270"
+                android:endColor="#FF999999"
+                android:startColor="#FFCCCCCC" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle" >
+            <corners android:radius="@dimen/rb__radius_button" />
+
+            <gradient
+                android:angle="270"
+                android:endColor="#FF9D0606"
+                android:startColor="#FFCC0808" />
+
+            <stroke
+                android:width="@dimen/rb__stroke_width_button_default"
+                android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+</layer-list>
