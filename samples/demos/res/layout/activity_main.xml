@@ -56,6 +56,11 @@
             android:text="RbButton.Inverse.Blue" />
 
         <Button
+            style="@style/RbButton.Inverse.Green"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.Green" />
+
+        <Button
             style="@style/RbButton.Darken"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Darken" />
