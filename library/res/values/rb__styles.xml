@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 Soichiro Kashima.
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  THE SOFTWARE.
+-->
+<resources>
+
+    <!-- Rich buttons' base style -->
+    <style name="RbButton" parent="android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/rb__height_element</item>
+        <item name="android:textColor">@drawable/rb__button_text_color</item>
+        <item name="android:background">@drawable/rb__button</item>
+        <item name="android:shadowColor">@color/rb__button_shadow_color</item>
+        <item name="android:shadowDx">@integer/rb__button_shadow_dx</item>
+        <item name="android:shadowDy">@integer/rb__button_shadow_dy</item>
+        <item name="android:shadowRadius">@integer/rb__button_shadow_radius</item>
+    </style>
+
+    <!-- Rich button with blue from ICS palette -->
+    <style name="RbButton.Blue"></style>
+
+    <!-- Rich button with green from ICS palette -->
+    <style name="RbButton.Green">
+        <item name="android:background">@drawable/rb__button_green</item>
+    </style>
+
+    <!-- Rich button with red from ICS palette -->
+    <style name="RbButton.Red">
+        <item name="android:background">@drawable/rb__button_red</item>
+    </style>
+
+    <!-- Rich button with purple from ICS palette -->
+    <style name="RbButton.Purple">
+        <item name="android:background">@drawable/rb__button_purple</item>
+    </style>
+
+    <!-- Rich button with yellow from ICS palette -->
+    <style name="RbButton.Yellow">
+        <item name="android:background">@drawable/rb__button_yellow</item>
+    </style>
+
+    <!-- Rich button which has glossy style -->
+    <style name="RbButton.Glossy">
+        <item name="android:background">@drawable/rb__button_glossy</item>
+    </style>
+
+    <!-- Rich button which becomes inversed gradient -->
+    <style name="RbButton.Inverse">
+        <item name="android:background">@drawable/rb__button_inverse</item>
+        <item name="android:textColor">@color/rb__button_inverse</item>
+    </style>
+
+    <!-- Rich button which becomes darken when tapped -->
+    <style name="RbButton.Darken">
+        <item name="android:background">@drawable/rb__button_darken</item>
+    </style>
+
+    <!-- Rich button which is recessed when tapped -->
+    <style name="RbButton.Recessed">
+        <item name="android:background">@drawable/rb__button_recessed</item>
+        <item name="android:textColor">@color/rb__button_recessed</item>
+    </style>
+
+    <!-- ICS styled buttons' base style -->
+    <style name="RbButton.ICS"></style>
+
+    <!-- Rich light colored button highlighted with ICS style -->
+    <style name="RbButton.ICS.Light">
+        <item name="android:background">@drawable/rb__button_ics_light</item>
+        <item name="android:textColor">@color/rb__button_ics_light</item>
+    </style>
+
+    <!-- Rich black colored button highlighted with ICS style -->
+    <style name="RbButton.ICS.Black">
+        <item name="android:background">@drawable/rb__button_ics_black</item>
+        <item name="android:textColor">@color/rb__button_ics_black</item>
+    </style>
+
+</resources>

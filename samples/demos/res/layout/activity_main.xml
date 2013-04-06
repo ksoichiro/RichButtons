@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp" >
+
+        <Button
+            style="@style/RbButton.Blue"
+            android:text="RbButton.Blue" />
+
+        <Button
+            style="@style/RbButton.Purple"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Purple" />
+
+        <Button
+            style="@style/RbButton.Green"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Green" />
+
+        <Button
+            style="@style/RbButton.Yellow"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Yellow" />
+
+        <Button
+            style="@style/RbButton.Red"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Red" />
+
+        <Button
+            style="@style/RbButton.Glossy"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Glossy" />
+
+        <Button
+            style="@style/RbButton.Inverse"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse" />
+
+        <Button
+            style="@style/RbButton.Darken"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Darken" />
+
+        <Button
+            style="@style/RbButton.Recessed"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Recessed" />
+
+        <Button
+            style="@style/RbButton.ICS.Light"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.ICS.Light" />
+
+        <Button
+            style="@style/RbButton.ICS.Black"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.ICS.Black" />
+    </LinearLayout>
+
+</ScrollView>
