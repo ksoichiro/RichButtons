@@ -20,27 +20,11 @@
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
   THE SOFTWARE.
 -->
-<resources>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Recommended element height -->
-    <dimen name="rb__height_element">48dp</dimen>
+    <item android:drawable="@drawable/rb__button_plastic_rounded_pressed" android:state_focused="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/rb__button_plastic_rounded_pressed" android:state_focused="false" android:state_pressed="true"/>
+    <item android:drawable="@drawable/rb__button_plastic_rounded_pressed" android:state_focused="true"/>
+    <item android:drawable="@drawable/rb__button_plastic_rounded_default" android:state_focused="false" android:state_pressed="false"/>
 
-    <!-- Recommended element height except padding on top and buttom -->
-    <dimen name="rb__height_element_except_padding">42dp</dimen>
-
-    <!-- Recommended space between elements -->
-    <dimen name="rb__space_elements">8dp</dimen>
-
-    <!-- Radius of the corners of the buttons -->
-    <dimen name="rb__radius_button">8dp</dimen>
-
-    <!-- Radius of the corners of the much rounded buttons -->
-    <dimen name="rb__radius_button_rounded">24dp</dimen>
-
-    <!-- Stroke width of buttons' frame -->
-    <dimen name="rb__stroke_width_button_default">1dp</dimen>
-
-    <!-- Offset for glossy button's shadow: half of the height -->
-    <dimen name="rb__offset_glossy_shadow">24dp</dimen>
-
-</resources>
+</selector>

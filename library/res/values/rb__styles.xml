@@ -101,4 +101,10 @@
         <item name="android:textColor">@color/rb__button_ics_black</item>
     </style>
 
+    <!-- Rich button which looks like plastic button -->
+    <style name="RbButton.Plastic.Rounded">
+        <item name="android:background">@drawable/rb__button_plastic_rounded</item>
+        <item name="android:textColor">@color/rb__button_plastic</item>
+    </style>
+
 </resources>
