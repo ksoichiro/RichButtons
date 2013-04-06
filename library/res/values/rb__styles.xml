@@ -99,6 +99,39 @@
         <item name="android:textColor">@color/rb__button_inverse_red</item>
     </style>
 
+    <!-- Rich button which becomes inversed gradient and much rounded corner -->
+    <style name="RbButton.Inverse.Rounded"></style>
+
+    <!-- Rich button which becomes inversed gradient and much rounded corner with red color -->
+    <style name="RbButton.Inverse.Rounded.Red">
+        <item name="android:background">@drawable/rb__button_inverse_rounded_red</item>
+        <item name="android:textColor">@color/rb__button_inverse_red</item>
+    </style>
+
+    <!-- Rich button which becomes inversed gradient and much rounded corner with blue color -->
+    <style name="RbButton.Inverse.Rounded.Blue">
+        <item name="android:background">@drawable/rb__button_inverse_rounded_blue</item>
+        <item name="android:textColor">@color/rb__button_inverse_red</item>
+    </style>
+
+    <!-- Rich button which becomes inversed gradient and much rounded corner with green color -->
+    <style name="RbButton.Inverse.Rounded.Green">
+        <item name="android:background">@drawable/rb__button_inverse_rounded_green</item>
+        <item name="android:textColor">@color/rb__button_inverse_red</item>
+    </style>
+
+    <!-- Rich button which becomes inversed gradient and much rounded corner with orange color -->
+    <style name="RbButton.Inverse.Rounded.Orange">
+        <item name="android:background">@drawable/rb__button_inverse_rounded_orange</item>
+        <item name="android:textColor">@color/rb__button_inverse_red</item>
+    </style>
+
+    <!-- Rich button which becomes inversed gradient and much rounded corner with black color -->
+    <style name="RbButton.Inverse.Rounded.Black">
+        <item name="android:background">@drawable/rb__button_inverse_rounded_black</item>
+        <item name="android:textColor">@color/rb__button_inverse_red</item>
+    </style>
+
     <!-- Rich button which becomes darken when tapped -->
     <style name="RbButton.Darken">
         <item name="android:background">@drawable/rb__button_darken</item>

@@ -71,6 +71,31 @@
             android:text="RbButton.Inverse.Black" />
 
         <Button
+            style="@style/RbButton.Inverse.Rounded.Red"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.Rounded.Red" />
+
+        <Button
+            style="@style/RbButton.Inverse.Rounded.Blue"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.Rounded.Blue" />
+
+        <Button
+            style="@style/RbButton.Inverse.Rounded.Green"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.Rounded.Green" />
+
+        <Button
+            style="@style/RbButton.Inverse.Rounded.Orange"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.Rounded.Orange" />
+
+        <Button
+            style="@style/RbButton.Inverse.Rounded.Black"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.Rounded.Black" />
+
+        <Button
             style="@style/RbButton.Darken"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Darken" />
