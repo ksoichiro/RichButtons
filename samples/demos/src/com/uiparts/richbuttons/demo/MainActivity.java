@@ -17,7 +17,10 @@
 package com.uiparts.richbuttons.demo;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
 public class MainActivity extends Activity {
 
@@ -29,4 +32,27 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id) {
+            case R.id.menu_color_white:
+                setBackgroundColor(Color.WHITE);
+                break;
+            case R.id.menu_color_black:
+                setBackgroundColor(Color.BLACK);
+                break;
+        }
+        return false;
+    }
+
+    private void setBackgroundColor(int color) {
+        findViewById(R.id.root).setBackgroundColor(color);
+    }
 }
