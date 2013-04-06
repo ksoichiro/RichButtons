@@ -110,12 +110,9 @@
         <item name="android:textColor">@color/rb__button_plastic</item>
     </style>
 
-    <!-- ICS styled buttons' base style -->
-    <style name="RbButton.ICS"></style>
-
     <!-- Rich light colored button highlighted with ICS style -->
-    <style name="RbButton.ICS.Light">
-        <item name="android:background">@drawable/rb__button_ics_light</item>
+    <style name="RbButton.ICS">
+        <item name="android:background">@drawable/rb__button_ics</item>
         <item name="android:textColor">@color/rb__button_ics_light</item>
     </style>
 

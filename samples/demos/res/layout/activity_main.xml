@@ -76,9 +76,9 @@
             android:text="RbButton.Recessed" />
 
         <Button
-            style="@style/RbButton.ICS.Light"
+            style="@style/RbButton.ICS"
             android:layout_marginTop="@dimen/rb__space_elements"
-            android:text="RbButton.ICS.Light" />
+            android:text="RbButton.ICS" />
 
         <Button
             style="@style/RbButton.ICS.Black"
