@@ -87,6 +87,12 @@
         <item name="android:textColor">@color/rb__button_inverse_red</item>
     </style>
 
+    <!-- Rich button which becomes inversed gradient with orange color -->
+    <style name="RbButton.Inverse.Orange">
+        <item name="android:background">@drawable/rb__button_inverse_orange</item>
+        <item name="android:textColor">@color/rb__button_inverse_red</item>
+    </style>
+
     <!-- Rich button which becomes inversed gradient with black color -->
     <style name="RbButton.Inverse.Black">
         <item name="android:background">@drawable/rb__button_inverse_black</item>
