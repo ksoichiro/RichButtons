@@ -20,7 +20,7 @@
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
   THE SOFTWARE.
 -->
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Rich buttons' base style -->
     <style name="RbButton" parent="android:style/Widget.Button">
@@ -78,6 +78,12 @@
     <style name="RbButton.Recessed">
         <item name="android:background">@drawable/rb__button_recessed</item>
         <item name="android:textColor">@color/rb__button_recessed</item>
+    </style>
+
+    <!-- Rich button which looks like plastic button -->
+    <style name="RbButton.Plastic">
+        <item name="android:background">@drawable/rb__button_plastic</item>
+        <item name="android:textColor">@color/rb__button_plastic</item>
     </style>
 
     <!-- ICS styled buttons' base style -->

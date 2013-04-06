@@ -54,6 +54,11 @@
             android:text="RbButton.Recessed" />
 
         <Button
+            style="@style/RbButton.Plastic"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Plastic" />
+
+        <Button
             style="@style/RbButton.ICS.Light"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.ICS.Light" />
