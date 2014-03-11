@@ -3,7 +3,7 @@ RichButtons
 
 RichButtonsは、Androidアプリケーションで使うボタンのスタイルのセットです。全てXMLで作っています。
 
-![Screenshot](https://raw.github.com/ksoichiro/RichButtons/master/samples/images/screenshot.png "Screenshots")
+![Screenshot](samples/images/screenshot.png "Screenshots")
 
 
 インストール
