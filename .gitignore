@@ -4,6 +4,7 @@ samples/demos/bin
 samples/demos/gen
 .gradle/
 build/
+target/
 .idea/
 *.iml
 local.properties

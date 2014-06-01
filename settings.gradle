@@ -1,2 +1,2 @@
-include ':samples:demos'
-include ':library'
+include ':richbuttons-samples:demos'
+include ':richbuttons'
