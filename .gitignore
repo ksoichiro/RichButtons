@@ -2,3 +2,8 @@ library/bin
 library/gen
 samples/demos/bin
 samples/demos/gen
+.gradle/
+build/
+.idea/
+*.iml
+local.properties
