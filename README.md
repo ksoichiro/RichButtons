@@ -3,15 +3,25 @@ RichButtons
 
 'RichButtons' is a set of button styles for Android applications. All of the styles are made of XML.
 
-![Screenshot](samples/images/screenshot.png "Screenshots")
+![Screenshot](richbuttons-samples/images/screenshot.png "Screenshots")
 
 
 Install
 ===
 
+### Eclipse
+
 * The 'library' folder is the main library.
 Please import it into the Eclipse or other IDEs.
 * Or just copy files in the library folder into your project.
+
+### Gradle
+
+```groovy
+dependencies {
+    compile 'com.github.ksoichiro:richbuttons:0.1.0@aar'
+}
+```
 
 
 Usage
