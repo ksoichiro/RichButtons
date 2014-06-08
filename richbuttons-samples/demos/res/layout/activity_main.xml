@@ -3,125 +3,171 @@
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white" >
+    android:background="@android:color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp" >
+        android:padding="16dp">
 
         <Button
             style="@style/RbButton.Blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="RbButton.Blue" />
 
         <Button
             style="@style/RbButton.Purple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Purple" />
 
         <Button
             style="@style/RbButton.Green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Green" />
 
         <Button
             style="@style/RbButton.Yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Yellow" />
 
         <Button
             style="@style/RbButton.Red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Red" />
 
         <Button
             style="@style/RbButton.Glossy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Glossy" />
 
         <Button
             style="@style/RbButton.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse" />
 
         <Button
             style="@style/RbButton.Inverse.Red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Red" />
 
         <Button
             style="@style/RbButton.Inverse.Blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Blue" />
 
         <Button
             style="@style/RbButton.Inverse.Green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Green" />
 
         <Button
             style="@style/RbButton.Inverse.Orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Orange" />
 
         <Button
             style="@style/RbButton.Inverse.Black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Black" />
 
         <Button
             style="@style/RbButton.Inverse.Rounded.Red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Rounded.Red" />
 
         <Button
             style="@style/RbButton.Inverse.Rounded.Blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Rounded.Blue" />
 
         <Button
             style="@style/RbButton.Inverse.Rounded.Green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Rounded.Green" />
 
         <Button
             style="@style/RbButton.Inverse.Rounded.Orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Rounded.Orange" />
 
         <Button
             style="@style/RbButton.Inverse.Rounded.Black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Rounded.Black" />
 
         <Button
             style="@style/RbButton.Darken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Darken" />
 
         <Button
             style="@style/RbButton.Recessed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Recessed" />
 
         <Button
             style="@style/RbButton.ICS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.ICS" />
 
         <Button
             style="@style/RbButton.ICS.Black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.ICS.Black" />
 
         <Button
             style="@style/RbButton.Plastic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Plastic" />
 
         <Button
             style="@style/RbButton.Plastic.Rounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Plastic.Rounded" />
     </LinearLayout>
