@@ -1,5 +1,4 @@
-RichButtons
-===
+# ![](richbuttons-samples/demos/res/drawable-ldpi/ic_launcher.png) RichButtons
 
 'RichButtons' is a set of button styles for Android applications. All of the styles are made of XML.
 

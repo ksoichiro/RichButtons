@@ -1,9 +1,8 @@
-RichButtons
-===
+# ![](richbuttons-samples/demos/res/drawable-ldpi/ic_launcher.png) RichButtons
 
 RichButtonsは、Androidアプリケーションで使うボタンのスタイルのセットです。全てXMLで作っています。
 
-![Screenshot](samples/images/screenshot.png "Screenshots")
+![Screenshot](richbuttons-samples/images/screenshot.png "Screenshots")
 
 
 インストール
