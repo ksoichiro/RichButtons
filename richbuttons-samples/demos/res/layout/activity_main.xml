@@ -95,6 +95,13 @@
             android:text="RbButton.Inverse.Black" />
 
         <Button
+            style="@style/RbButton.Inverse.LightBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.LightBlue" />
+
+        <Button
             style="@style/RbButton.Inverse.Rounded.Red"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -128,6 +135,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Rounded.Black" />
+
+        <Button
+            style="@style/RbButton.Inverse.Rounded.LightBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.Rounded.LightBlue" />
 
         <Button
             style="@style/RbButton.Darken"
