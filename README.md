@@ -1,4 +1,5 @@
 # ![](richbuttons-samples/demos/res/drawable-ldpi/ic_launcher.png) RichButtons
+[![Build Status](https://travis-ci.org/ksoichiro/RichButtons.svg?branch=master)](https://travis-ci.org/ksoichiro/RichButtons)
 
 'RichButtons' is a set of button styles for Android applications. All of the styles are made of XML.
 
