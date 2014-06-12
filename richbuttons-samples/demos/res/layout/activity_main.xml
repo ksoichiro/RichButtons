@@ -74,6 +74,13 @@
             android:text="RbButton.Inverse.Blue" />
 
         <Button
+            style="@style/RbButton.Inverse.LightBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.LightBlue" />
+
+        <Button
             style="@style/RbButton.Inverse.Green"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -88,18 +95,18 @@
             android:text="RbButton.Inverse.Orange" />
 
         <Button
+            style="@style/RbButton.Inverse.Gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.Gray" />
+
+        <Button
             style="@style/RbButton.Inverse.Black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Black" />
-
-        <Button
-            style="@style/RbButton.Inverse.LightBlue"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/rb__space_elements"
-            android:text="RbButton.Inverse.LightBlue" />
 
         <Button
             style="@style/RbButton.Inverse.Rounded.Red"
@@ -116,6 +123,13 @@
             android:text="RbButton.Inverse.Rounded.Blue" />
 
         <Button
+            style="@style/RbButton.Inverse.Rounded.LightBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.Rounded.LightBlue" />
+
+        <Button
             style="@style/RbButton.Inverse.Rounded.Green"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -130,18 +144,18 @@
             android:text="RbButton.Inverse.Rounded.Orange" />
 
         <Button
+            style="@style/RbButton.Inverse.Rounded.Gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.Rounded.Gray" />
+
+        <Button
             style="@style/RbButton.Inverse.Rounded.Black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/rb__space_elements"
             android:text="RbButton.Inverse.Rounded.Black" />
-
-        <Button
-            style="@style/RbButton.Inverse.Rounded.LightBlue"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/rb__space_elements"
-            android:text="RbButton.Inverse.Rounded.LightBlue" />
 
         <Button
             style="@style/RbButton.Darken"

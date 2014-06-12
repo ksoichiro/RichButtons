@@ -105,6 +105,12 @@
         <item name="android:textColor">@color/rb__button_inverse_red</item>
     </style>
 
+    <!-- Rich button which becomes inversed gradient with gray color -->
+    <style name="RbButton.Inverse.Gray">
+        <item name="android:background">@drawable/rb__button_inverse_gray</item>
+        <item name="android:textColor">@color/rb__button_inverse_red</item>
+    </style>
+
     <!-- Rich button which becomes inversed gradient and much rounded corner -->
     <style name="RbButton.Inverse.Rounded"></style>
 
@@ -141,6 +147,12 @@
     <!-- Rich button which becomes inversed gradient and much rounded corner with light blue color -->
     <style name="RbButton.Inverse.Rounded.LightBlue">
         <item name="android:background">@drawable/rb__button_inverse_rounded_lightblue</item>
+        <item name="android:textColor">@color/rb__button_inverse_red</item>
+    </style>
+
+    <!-- Rich button which becomes inversed gradient and much rounded corner with gray color -->
+    <style name="RbButton.Inverse.Rounded.Gray">
+        <item name="android:background">@drawable/rb__button_inverse_rounded_gray</item>
         <item name="android:textColor">@color/rb__button_inverse_red</item>
     </style>
 
