@@ -109,6 +109,13 @@
             android:text="RbButton.Inverse.Black" />
 
         <Button
+            style="@style/RbButton.Inverse.Rounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/rb__space_elements"
+            android:text="RbButton.Inverse.Rounded" />
+
+        <Button
             style="@style/RbButton.Inverse.Rounded.Red"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
