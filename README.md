@@ -19,7 +19,7 @@ Please import it into the Eclipse or other IDEs.
 
 ```groovy
 dependencies {
-    compile 'com.github.ksoichiro:richbuttons:0.1.0@aar'
+    compile 'com.github.ksoichiro:richbuttons:0.1.1@aar'
 }
 ```
 

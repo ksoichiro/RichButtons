@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.github.ksoichiro</groupId>
         <artifactId>richbuttons-parent</artifactId>
-        <version>0.1.0</version>
+        <version>0.1.1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -73,7 +73,7 @@
                                 </artifact>
                                 <artifact>
                                     <type>aar</type>
-                                    <file>${project.basedir}/build/libs/${project.artifactId}-${gradle.version}.aar</file>
+                                    <file>${project.basedir}/build/outputs/aar/${project.artifactId}-${gradle.version}.aar</file>
                                 </artifact>
                             </artifacts>
                         </configuration>

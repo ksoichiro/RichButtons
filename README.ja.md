@@ -9,9 +9,17 @@ RichButtonsは、Androidアプリケーションで使うボタンのスタイ�
 インストール
 ===
 
+### Eclipse
+
 * libraryフォルダがライブラリ本体です。EclipseなどのIDEでAndroid Library Projectとして取り込んでください。
 * もしくは、ライブラリ内のファイルをあなたのプロジェクトへそのままコピーしてください。
 
+### Gradle
+
+```groovy
+dependencies {
+    compile 'com.github.ksoichiro:richbuttons:0.1.1@aar'
+}
 
 使い方
 ===
