@@ -11,11 +11,13 @@ Install
 
 ### Eclipse
 
-* The 'library' folder is the main library.
+* The 'richbuttons' folder is the main library.
 Please import it into the Eclipse or other IDEs.
 * Or just copy files in the library folder into your project.
 
 ### Gradle
+
+Add a dependency to your build.gradle.
 
 ```groovy
 dependencies {
