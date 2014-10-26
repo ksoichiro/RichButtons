@@ -1,5 +1,6 @@
 # ![](richbuttons-samples/demos/res/drawable-ldpi/ic_launcher.png) RichButtons
 [![Build Status](https://travis-ci.org/ksoichiro/RichButtons.svg?branch=master)](https://travis-ci.org/ksoichiro/RichButtons)
+[![Maven Central](http://img.shields.io/maven-central/v/com.github.ksoichiro/richbuttons.svg)](https://github.com/ksoichiro/RichButtons/releases/latest)
 
 RichButtonsは、Androidアプリケーションで使うボタンのスタイルのセットです。全てXMLで作っています。
 
